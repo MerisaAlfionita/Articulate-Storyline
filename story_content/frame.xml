@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111111111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns10111111111" font="Lato" controllayout="npnxnanbsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111111" font="Lato" controllayout="pxabnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="npxnabnsnfns10111111111" font="Lato" controllayout="npxnabnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="npnxnanbnsnfns10111111111" font="Lato" controllayout="npnxnanbnsnfns10111111111" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111110" font="Lato" controllayout="pxabnsnfns10111111110" colorscheme="pxabnsnfns10111111111" string_table="pxabnsnfns10111111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Animating Drag Objects in Storyline 360 by David Anderson" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true" />
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111111111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111111111">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="closed_captions">Captions</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="next">NEXT</string>
+      <string id="prev">PREV</string>
+      <string id="submit">SUBMIT</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="continue">Continue</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="transcript">Notes</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="close">Close</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="acc_search_input">search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="search_in">Search in:</string>
+      <string id="filter">Filter</string>
+      <string id="search">Search...</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="search_results">Search Results</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6QKcU8mLtgv" displaytext="Presentasi Edukasi Matahari, Bulan, Bumi, dan Pasang Surut Gaya Kartun Datar Hitam Biru Kuning (1)" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QKcU8mLtgv.6rQQipO9F9o" displaytext="Cover" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.67Y8d6wZ5rN" displaytext="login" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.5ddjxKxMY8u" displaytext="menu utama" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.6W8ytm2ARhK" displaytext="profil" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.6RTAp5UJe75" displaytext="petunjuk" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.5ib5A17H8Bw" displaytext="tujuan" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.6MyrbUdMqR5" displaytext="materi" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.6CVemJIEuC3" displaytext="GAME QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6QKcU8mLtgv.5xbns8RE8XB" displaytext="video" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6AXeDiQPfUD" displaytext="GAME" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6AXeDiQPfUD.6Hjo1jzzIeP" displaytext="SUSUNAN STRUKTUR BUMI" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5lJZvgKwL0t" displaytext="QUIZ" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5lJZvgKwL0t.6ajq3mQTmi4" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.6LOUaQSaB24" displaytext="Instructions" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.6SwkEzDxyZK" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.6Lpn8eHnQR2" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.5XY5iXmKUSw" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.5gewytF35PG" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5lJZvgKwL0t.5lcVsQ8a9bD" displaytext="Question 5" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5tvxKr4lhfB" displaytext="Colorful Doodle Creative Project Presentation" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5tvxKr4lhfB.5Vw53omr6Ju" displaytext="PROSES TERBENTUKNYA BUMI" expand="false" type="slide" />
+            <slidelink slideid="_player.5tvxKr4lhfB.6iRWwNuxnK8" displaytext="KARAKTERISTIK" expand="false" type="slide" />
+            <slidelink slideid="_player.5tvxKr4lhfB.6qmdgZrpclJ" displaytext="KERAK" expand="false" type="slide" />
+            <slidelink slideid="_player.5tvxKr4lhfB.5qQeunM9gOP" displaytext="MANTEL" expand="false" type="slide" />
+            <slidelink slideid="_player.5tvxKr4lhfB.6VTkBaUBL5K" displaytext="INTI BUMI" expand="false" type="slide" />
+            <slidelink slideid="_player.5tvxKr4lhfB.6X2rxEFluLW" displaytext="FENOMENA" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6QKcU8mLtgv.6rQQipO9F9o" slidebank="false" type="slide">  struktur  lapisan bumi media pembelajaran interaktif start start start start start start z    </slidetext>
+      <slidetext slideid="6QKcU8mLtgv.67Y8d6wZ5rN" slidebank="false" type="slide">log in save and next save and next save and next save and next save and next save and next kelas nama lengkap</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.5ddjxKxMY8u" slidebank="false" type="slide">       video game quiz lapisan bumi materi petunjuk menu utama  profil  pengembang  tujuan pembelajaran       hallooo, %nama%</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.6W8ytm2ARhK" slidebank="false" type="slide">   universitas muhammadiyah cirebon  profil pengembang  nama			: merisa alfionita nim				: 200661029 ttl				: cirebon, 09 desember 2001 program studi		: pendidikan ipa email 			: merisaalfonita9@gmail.com alamat			: blok d rt/rw 03/04 belawa lemahabang cirebon riwayat pendidikan : 1.	sdn 1 belawa 2.	smpn 2 lemahabang 3.	sman 1 karangwareng saat ini pengembang sedang menyelesaikan pendidikan di program studi pendidikan ipa fkip umc. pengembangan media interaktif articulate storyline ini dikembangkan dalam rangka menyelesaikan skripsi dengan judul “pengembangan media pembelajaran articulate storyline menggunakan model assure untuk meningkatkan keterampilan berpikir kritis siswa”  @merisaalfio_</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.6RTAp5UJe75" slidebank="false" type="slide">  petunjuk penggunaan untuk kembali ke menu utama untuk ketampilan sebelumnya untuk ketampilan selanjutnya untuk mengatur sound untuk menutup tampilan</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.5ib5A17H8Bw" slidebank="false" type="slide">  tujuan pembelajaran  setelah mempelajari materi, diharapkan siswa mampu: 1.	siswa dapat menjelaskan konsep struktur bumi beserta lapisan-lapisannya.  2.	siswa dapat mengidentifikasi karakteristik setiap lapisan bumi.  3.	siswa dapat menjelaskan proses terbentuknya lapisan-lapisan bumi.  4.	siswa dapat menganalisis hubungan antara lapisan bumi dengan fenomena geologi seperti gempa bumi, gunung berapi, dan tsunami.</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.6MyrbUdMqR5" slidebank="false" type="slide"> struktur lapisan bumi      proses karakteristik   kerak bumi  mantel bumi fenomena geologi inti bumi</slidetext>
+      <slidetext slideid="6QKcU8mLtgv.6CVemJIEuC3" slidebank="false" type="slide">game game game game game game quiz quiz quiz quiz quiz quiz</slidetext>
+      <slidetext slideid="6AXeDiQPfUD.6Hjo1jzzIeP" slidebank="false" type="slide">  wrong "jangan menyerah! kamu masih punya kesempatan untuk memperbaiki susunan lapisan bumi. fokus dan coba lagi dengan teliti." exit exit exit exit try again try again try again try again   correct hebat sekali! kamu berhasil menyelesaikan game ini dengan sempurna. pengetahuanmu tentang lapisan bumi sangat mengagumkan. exit exit exit exit   susunan struktur bumi tolong sesuaikan karateristik lapisan bumi dengan gambar yang tersedia! petunjuk: seret nomor pada karakteristik dan letakan pada kolom samping gambar! lapisan bumi yang terdiri dari cairan berupa besi dan nikel 1 1 lapisan bumi berupa bebatuan yang tersebar di seluruh muka bumi 2 2 lapisan bumi yang paling padat dan memiliki suhu tertinggi  3 3 lapisan bumi yang paling tebal yang ketebalannya mencapai 2.900 kilometer, 4 4 4 4 3 3 2 2 1 1         submit submit submit submit </slidetext>
+      <slidetext slideid="5lJZvgKwL0t.6ajq3mQTmi4" slidebank="false" type="slide">quiz kuis ini akan menguji pemahaman anda tentang struktur  bumi dan bertujuan untuk membantu mengingat kembali materi yang telah dipelajari tentang struktur bumi.  continue  continue  continue continue</slidetext>
+      <slidetext slideid="5lJZvgKwL0t.6LOUaQSaB24" slidebank="false" type="slide">di sisi kiri halaman anda akan melihat latar belakang yang diisi dengan setiap pertanyaan yang anda jawab yang menunjukkan seberapa jauh anda dalam kuis. petunjuk  continue  continue  continue continue</slidetext>
+      <slidetext slideid="5lJZvgKwL0t.6SwkEzDxyZK" slidebank="false" type="slide">  litosfer a) litosfer a) litosfer a) litosfer hidrosfer b) hidrosfer b) hidrosfer b) hidrosfer atmosfer c) atmosfer c) atmosfer c) atmosfer      manusia dan makhluk hidup lainnya tinggal di lapisan ...  01     pertanyaan 5 pertanyaan 4 pertanyaan 3 pertanyaan 2 pertanyaan 1                     </slidetext>
+      <slidetext slideid="5lJZvgKwL0t.6Lpn8eHnQR2" slidebank="false" type="slide"> badai a) badai a) badai a) badai gempa bumi b) gempa bumi b) gempa bumi b) gempa bumi banjir c) banjir c) banjir c) banjir      fenomena alam berikut yang paling berkaitan dengan struktur lapisan bumi adalah ... 02     pertanyaan 5 pertanyaan 4 pertanyaan 3 pertanyaan 2  pertanyaan 1                      </slidetext>
+      <slidetext slideid="5lJZvgKwL0t.5XY5iXmKUSw" slidebank="false" type="slide"> pemanasan global a) pemanasan global a) pemanasan global a) pemanasan global pergerakan lempeng tektonik  b) pergerakan lempeng tektonik  b) pergerakan lempeng tektonik  b) pergerakan lempeng tektonik  aktivitas pengeboran minyak c) aktivitas pengeboran minyak c) aktivitas pengeboran minyak c) aktivitas pengeboran minyak      salah satu penyebab gunung berapi meletus adalah  03     pertanyaan 5 pertanyaan 4 pertanyaan 3 pertanyaan 2 pertanyaan 1                      </slidetext>
+      <slidetext slideid="5lJZvgKwL0t.5gewytF35PG" slidebank="false" type="slide"> untuk menghindari bencana alam  a) untuk menghindari bencana alam  a) untuk menghindari bencana alam  a) untuk menghindari bencana alam  untuk memahami proses-proses geologis yang terjadi di bumi  b) untuk memahami proses-proses geologis yang terjadi di bumi  b) untuk memahami proses-proses geologis yang terjadi di bumi  b) untuk memahami proses-proses geologis yang terjadi di bumi   untuk  meningkatakan kemampuan berpikir kritis c)  untuk  meningkatakan kemampuan berpikir kritis c)  untuk  meningkatakan kemampuan berpikir kritis c)  untuk  meningkatakan kemampuan berpikir kritis      mengapa penting bagi manusia untuk mempelajari struktur lapisan bumi? alasan yang paling logis adalah ...  04     pertanyaan 5 pertanyaan 4 pertanyaan 3 pertanyaan 2 pertanyaan 1                      </slidetext>
+      <slidetext slideid="5lJZvgKwL0t.5lcVsQ8a9bD" slidebank="false" type="slide"> gempa bumi a) gempa bumi a) gempa bumi a) gempa bumi kemarau panjang b) kemarau panjang b) kemarau panjang b) kemarau panjang badai c) badai c) badai c) badai      fenomena alam berikut yang paling berkaitan dengan aktivitas pada lapisan mantel/selimut bumi yaitu… 05     pertanyaan 5 pertanyaan 4 pertanyaan 3 pertanyaan 2 pertanyaan 1                      </slidetext>
+      <slidetext slideid="5tvxKr4lhfB.5Vw53omr6Ju" slidebank="false" type="slide">proses  terbentuknya bumi   bumi terbentuk sekitar 4,6 miliar tahun lalu melalui akresi. panas dari tabrakan dan peluruhan radioaktif membuat bumi meleleh. materi memisah berdasarkan massa jenis: besi dan nikel yang berat tenggelam ke inti, sedangkan silikat yang lebih ringan naik ke permukaan. inti terdiri dari inti dalam padat dan inti luar cair. mantel di atas inti terdiri dari silikat, dan kerak terbentuk dari materi paling ringan. pendinginan lebih lanjut menyebabkan pembentukan lapisan-lapisan solid ini.</slidetext>
+      <slidetext slideid="5tvxKr4lhfB.6iRWwNuxnK8" slidebank="false" type="slide">  karakteristik lapisan bumi  kerak bumi inti  dalam inti luar 	 mantel / selubung kerak bumi terdiri dari kerak benua dan kerak samudra yang berbeda secara ketebalan dan komposisi kimia. ketebalan kerak benua antara 30 - 70 km, sedangkan kerak samudera 6-11 km. suhu mencapai 870 derajat celcius. . mantel bumi adalah lapisan besar dan tebal antara kerak bumi dan inti luar, terdiri dari batuan silikat kaya magnesium dan besi. suhu di mantel berkisar antara 500 hingga 900 derajat celsius di bagian atas dan 4.000 derajat celsius di dekat inti bumi.  ketebalan mantel mencapai 2.900 km.      inti bumi memiliki suhu yang sangat tinggi, mencapai sekitar 5.000-6.000 derajat celsius. lapisan inti ini terletak di dalam bumi dengan ketebalan sekitar 5.100 hingga 6.400 km. suhu yang tinggi di inti bumi ini membantu menjaga aktivitas geologis bumi dan memainkan peran penting dalam pembentukan medan magnet bumi.   inti luar bumi terdiri dari cairan logam besi dan nikel yang bergerak dinamis, menciptakan medan magnet bumi. suhunya tinggi, menyebabkan logam tetap cair. suhu inti luar bumi mencapai 6000 derajat celcius dengan ketebalan mencapai 5.100 km.</slidetext>
+      <slidetext slideid="5tvxKr4lhfB.6qmdgZrpclJ" slidebank="false" type="slide"> kerak bumi  kerak bumi menjadi tempat tinggal bagi manusia dan berbagai makhluk hidup lainnya, tepatnya pada bagian terluar kerak bumi (litosfer). tanah, air, dan udara yang kita hirup merupakan bagian dari kerak bumi. kerak bumi juga menjadi tempat penambangan berbagai mineral dan bahan tambang seperti minyak, gas, emas, dan tembaga.  kerak bumi juga memiliki fungsi penting dalam mengatur suhu bumi. kerak bumi mampu menyerap dan memancarkan panas yang dihasilkan oleh matahari, sehingga menjaga suhu bumi tetap stabil dalam kadar tertentu. </slidetext>
+      <slidetext slideid="5tvxKr4lhfB.5qQeunM9gOP" slidebank="false" type="slide"> 2. mantel bumi selubung bumi atau yang biasa disebut mantel bumi ini merupakan lapisan yang menyelubungi inti bumi. terdiri dari material yang berfasa cair,sering pula selubung bumi disebut sebagai lapisan astenosfer. pada lapisan ini tempat terjadinya pergerakan-pergerakan lempeng-lempeng yang disebabkan oleh gaya konveksi atau energi dari panas bumi.  </slidetext>
+      <slidetext slideid="5tvxKr4lhfB.6VTkBaUBL5K" slidebank="false" type="slide">  inti bumi inti bumi adalah misteri alam semesta yang menarik. terdiri dari inti luar dan inti dalam, yang terbuat dari besi dan nikel panas. fenomena ini membantu menjelaskan aktivitas geologi di bumi. memahami inti bumi dapat memberikan pengetahuan lebih tentang planet kita. inti luar bumi terdiri dari besi cair dan nikel, memiliki suhu tinggi, dan membentuk medan magnet bumi. penting dalam aktivitas geologis dan fenomena alam. pemahaman yang lebih dalam tentang inti luar bumi membantu ilmu pengetahuan memecahkan misteri alam semesta.  3. inti luar 4. inti dalam </slidetext>
+      <slidetext slideid="5tvxKr4lhfB.6X2rxEFluLW" slidebank="false" type="slide"> beberapa fenomena yang terkait dengan struktur bumi adalah: gempa bumi: terjadi akibat pergerakan lempeng tektonik di kerak bumi yang melepaskan energi. gunung berapi: letusan terjadi ketika magma dari mantel mencapai permukaan melalui kerak. lempeng tektonik: lempeng-lempeng bumi bergerak di atas mantel yang plastis, menyebabkan pergeseran benua dan pembentukan pegunungan. arus konveksi mantel: pergerakan material panas di dalam mantel mempengaruhi pergerakan lempeng tektonik. medan magnet bumi: dihasilkan oleh gerakan cairan besi di inti luar yang cair, melindungi bumi dari radiasi matahari.</slidetext>
+      <slidetext slideid="5mlegH40Jm8" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="66Fv1hBu5zj" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5WLCaOBdpfy" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5WgMq3VEn8k" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lUadRAsrMp" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5k0ywImr6La" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6i0O1jxYCvu" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5qE96nlo2ZL" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5vD4VVIK4kP" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5tJM4ZzUjyr" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5zEvQzL5MzJ" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6r0n3sXcanX" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5WAZuIohqAb" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6G0n00alkwe" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6McQSHgPpy1" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6arCpYUJjbX" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6hnaNalaIWG" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5Ynifaiw0n0" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6IgVBGnrTV1" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6K5Q3ImKqs7" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6WrC14jb5dX" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="69XjxHBi9ih" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="63CnanHOoGQ" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6l1Nkh6Ti0u" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Je5wxycUWL" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60EV03OQZdX" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5kv422gdVBR" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5WNW9gnn52H" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6D9w3MbBuuD" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6AveQOZn8HU" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5xXLSNYwlaz" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5zRWqaueISF" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Qintb92mmK" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="67oJL7G0Rzl" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5hX0qZ77UV6" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5gHSpInGSZ3" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5e3zW2RkWe4" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5twsu048DOS" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60f1MZsFpXd" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5oS4wueWBZQ" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lSDZlgeZkR" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6iBypgaHmfr" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6PD8drJo5Pz" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="65JzHuDDIhX" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5lEmOcpcaXF" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ZprZkJeMpt" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6kZJh76nxXj" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6kLtlXDHla8" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6qEu846sXjZ" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60YMJSPk6Hn" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5j7vX88l9Ar" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lP6OjzeFOh" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6B6u3twTPN2" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6j8SsaWEWPX" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5oP5A8RWhHf" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5fLdyrQicvJ" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5acC1thjnLA" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6K0xxeCBCks" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6mV3HVkAzGa" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6cgx6YecQTU" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5kiDk6EH269" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5c2fbekgkEi" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lOxZA5v6pF" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5Y2LaKFcwfa" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5jzXJRhzXnp" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6YF2OEEgWGG" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6dEyUDlUmWS" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6QJNX6IEaX6" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lAINQqdudU" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6G5uaDpa0Nc" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6khp5mzDyBU" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="62K3jU9DOwB" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6WzwR6kzsOL" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6C9drIvb4Ju" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5X9UQq7tvnR" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6hKnO9hfL9B" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5x58zKEwkJY" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5imUtplXYa6" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="69z7ZmtJll9" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60qkkaSKKVj" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5dlPsFLDGL8" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6dbcMPx2zgT" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6nK580QXMcT" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ih96FU0dto" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60pQVAWYdFU" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5yONUKlfwYX" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6JBbeHTGotc" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5lRLfMMMWZe" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6cASR12hhn6" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6dWn3k9oKeP" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5gMGEw5mdJu" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6SSt7XHUn5n" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6liPerXSsMs" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6DDyWjsgliD" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5pyZIGvvWLu" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5mohqDIIxro" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="65m2Nq6n9Cz" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5oYBC3AJqnU" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6ZnSkgMXx6y" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5YCpWV5nzrZ" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
